@@ -1,0 +1,145 @@
+const img = (seed) =>
+  `https://images.unsplash.com/photo-${seed}?auto=format&fit=crop&w=700&q=80`;
+export const categories = [
+  {
+    name: "Air Purifying Plants",
+    plants: [
+      {
+        id: 1,
+        name: "Snake Plant",
+        price: 18,
+        description: "Hardy upright leaves and excellent indoor appeal.",
+        image: img("1593691509543-c55fb32e5cee"),
+      },
+      {
+        id: 2,
+        name: "Spider Plant",
+        price: 14,
+        description: "Arching striped leaves, ideal for shelves.",
+        image: img("1572688484438-313a6e50c333"),
+      },
+      {
+        id: 3,
+        name: "Peace Lily",
+        price: 22,
+        description: "Glossy foliage with elegant white blooms.",
+        image: img("1593691509543-c55fb32e5cee"),
+      },
+      {
+        id: 4,
+        name: "Rubber Plant",
+        price: 24,
+        description: "Bold, glossy leaves for bright rooms.",
+        image: img("1593691509543-c55fb32e5cee"),
+      },
+      {
+        id: 5,
+        name: "Boston Fern",
+        price: 16,
+        description: "Soft green fronds for humid spaces.",
+        image: img("1572688484438-313a6e50c333"),
+      },
+      {
+        id: 6,
+        name: "Areca Palm",
+        price: 28,
+        description: "Feathery foliage with a tropical look.",
+        image: img("1593691509543-c55fb32e5cee"),
+      },
+    ],
+  },
+  {
+    name: "Low Light Plants",
+    plants: [
+      {
+        id: 7,
+        name: "ZZ Plant",
+        price: 20,
+        description: "Waxy leaves and very low maintenance.",
+        image: img("1572688484438-313a6e50c333"),
+      },
+      {
+        id: 8,
+        name: "Pothos",
+        price: 12,
+        description: "Trailing vines suited to hanging pots.",
+        image: img("1593691509543-c55fb32e5cee"),
+      },
+      {
+        id: 9,
+        name: "Chinese Evergreen",
+        price: 19,
+        description: "Patterned foliage that tolerates shade.",
+        image: img("1572688484438-313a6e50c333"),
+      },
+      {
+        id: 10,
+        name: "Cast Iron Plant",
+        price: 21,
+        description: "Durable dark leaves for quiet corners.",
+        image: img("1593691509543-c55fb32e5cee"),
+      },
+      {
+        id: 11,
+        name: "Heartleaf Philodendron",
+        price: 15,
+        description: "Heart-shaped leaves with trailing growth.",
+        image: img("1572688484438-313a6e50c333"),
+      },
+      {
+        id: 12,
+        name: "Parlor Palm",
+        price: 25,
+        description: "Compact palm that prefers indirect light.",
+        image: img("1593691509543-c55fb32e5cee"),
+      },
+    ],
+  },
+  {
+    name: "Succulents and Cacti",
+    plants: [
+      {
+        id: 13,
+        name: "Aloe Vera",
+        price: 13,
+        description: "Sculptural leaves and easy care.",
+        image: img("1572688484438-313a6e50c333"),
+      },
+      {
+        id: 14,
+        name: "Jade Plant",
+        price: 17,
+        description: "Thick oval leaves on sturdy stems.",
+        image: img("1593691509543-c55fb32e5cee"),
+      },
+      {
+        id: 15,
+        name: "Echeveria",
+        price: 10,
+        description: "Colorful rosette-shaped succulent.",
+        image: img("1572688484438-313a6e50c333"),
+      },
+      {
+        id: 16,
+        name: "Zebra Haworthia",
+        price: 11,
+        description: "Striped compact leaves for sunny desks.",
+        image: img("1593691509543-c55fb32e5cee"),
+      },
+      {
+        id: 17,
+        name: "Golden Barrel Cactus",
+        price: 18,
+        description: "Rounded cactus with golden spines.",
+        image: img("1572688484438-313a6e50c333"),
+      },
+      {
+        id: 18,
+        name: "Burro’s Tail",
+        price: 16,
+        description: "Cascading succulent for hanging displays.",
+        image: img("1593691509543-c55fb32e5cee"),
+      },
+    ],
+  },
+];
